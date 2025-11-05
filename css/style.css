@@ -1,1 +1,9 @@
-/* Add any custom CSS stylings you want here */
+/* Add a/* Ensures images fill their column width 
+  and maintain their aspect ratio for a clean grid.
+*/
+#gif-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
